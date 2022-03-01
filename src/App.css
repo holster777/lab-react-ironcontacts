@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +41,71 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* My Global CSS */
+
+.row {
+  border-bottom: solid 1px black;
+}
+
+
+ .row img {
+
+width: 200px;
+border-radius: 10px;
+
+
+ }
+
+ th {
+   padding: 20px 50px;
+ }
+
+
+
+ .detail {
+   padding: 50px;
+ }
+
+
+ .btn {
+   margin: 10px 20px;
+   background-color: black;
+   color: white;
+   padding: 10px 30px;
+   border-style: none;
+   border-width: 0px;
+   border-radius: 10px;
+
+ }
+
+ .btn:hover {
+   background-color: rgb(160, 100, 160);
+   color: white;
+ }
+
+ .btn-row {
+   display: flex;
+   justify-content: center;
+   margin: 20px auto;
+ }
+
+
+.delete-btn {
+  background-color: transparent;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  
+}
+
+.delete-btn:hover {
+
+background-color: red;
+border: solid 2px red;
+color: white;
+
+}
+
